@@ -9,7 +9,7 @@
   "dependencies": {
     "stremio-addon-sdk": "^4.2.0",
     "axios": "^0.24.0",
-    "m3u8-parser": "^0.7.1"
+    "m3u8-parser": "^0.7.1",
     // Agrega otras dependencias según sea necesario
   },
   "engines": {
