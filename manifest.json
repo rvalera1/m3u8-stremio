@@ -1,0 +1,10 @@
+{
+  "id": "tu-addon-id",
+  "version": "1.0.0",
+  "name": "Tu Addon",
+  "description": "Addon para Stremio",
+  "resources": ["stream"],
+  "types": ["movie"],
+  "idPrefixes": ["tt"]
+}
+

@@ -1,0 +1,27 @@
+<!-- ... (tu HTML actual) ... -->
+
+<script>
+    document.getElementById('configForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const m3uUrl = document.getElementById('m3uUrl').value;
+        const tmdbApiKey = document.getElementById('tmdbApiKey').value;
+
+        // Aquí puedes enviar esta información al servidor o almacenarla localmente
+        // Puedes utilizar JavaScript para hacer una solicitud al servidor o almacenar en el navegador
+
+        // Llama a la función de configuración proporcionando los datos y el archivo M3U
+        StremioAddonClient.configurator({
+            type: 'movie',
+            key: 'config',
+            data: { m3uData: '... tu contenido M3U aquí ...', m3uUrl, tmdbApiKey }
+        }).then(response => {
+            if (response.success) {
+                alert('Configuración guardada correctamente');
+            } else {
+                alert('Error al guardar la configuración');
+            }
+        });
+    });
+</script>
+
