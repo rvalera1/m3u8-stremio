@@ -3,9 +3,10 @@ const fs = require('fs');
 const path = require('path');
 
 const builder = new addonBuilder({
-    id: 'tu-addon-id',
-    version: '1.0.0',
-    name: 'Tu Addon',
+    id: 'org.m3u-stremio',
+    version: '0.0.1a',
+    name: 'm3u-stremio',
+    catalogs: [],
     resources: ['stream'],
     types: ['movie'],
     idPrefixes: ['tt']
