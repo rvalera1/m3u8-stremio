@@ -1,6 +1,6 @@
 {
   "id": "org.m3u-stremio",
-  "version": "0.0.1a",
+  "version": "0.0.1",
   "name": "m3u-stremio",
   "description": "This addon parses the movies from an existing m3u list and adds them to the results in stremio",
   "resources": ["stream"],
