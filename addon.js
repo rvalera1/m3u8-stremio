@@ -4,7 +4,7 @@ const path = require('path');
 
 const builder = new addonBuilder({
     id: 'org.m3u-stremio',
-    version: '0.0.1a',
+    version: '0.0.1',
     name: 'm3u-stremio',
     catalogs: [],
     resources: ['stream'],
