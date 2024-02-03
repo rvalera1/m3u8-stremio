@@ -1,8 +1,8 @@
 {
-  "id": "tu-addon-id",
-  "version": "1.0.0",
-  "name": "Tu Addon",
-  "description": "Addon para Stremio",
+  "id": "org.m3u-stremio",
+  "version": "0.0.1a",
+  "name": "m3u-stremio",
+  "description": "This addon parses the movies from an existing m3u list and adds them to the results in stremio",
   "resources": ["stream"],
   "types": ["movie"],
   "idPrefixes": ["tt"]
