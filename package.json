@@ -6,11 +6,11 @@
   "scripts": {
     "start": "node addon.js"
   },
-  "dependencies": {
-    "stremio-addon-sdk": "^4.2.0",
+"dependencies": {
+    "stremio-addon-sdk": "1.6.10",
     "axios": "^0.24.0",
     "m3u8-parser": "^7.1.0"
-      },
+},
   "engines": {
     "node": ">=12.0.0"
   },
