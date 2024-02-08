@@ -31,7 +31,7 @@ function guardarConfiguracionYArchivoM3U(configuracion, m3uData) {
 }
 
 // Define el manejador para configurar el addon
-builder.defineConfig(({ type, key, data }) => {
+builder.defineConfigurator(({ type, key, data }) => {
     if (type === 'movie' && key === 'config') {
         // Guarda la configuración y el archivo M3U
         guardarConfiguracionYArchivoM3U(data, data.m3uData);
@@ -48,4 +48,3 @@ builder.defineStreamHandler((args) => {
 
 // Iniciar el servidor HTTP para el addon
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 7000 });
-
