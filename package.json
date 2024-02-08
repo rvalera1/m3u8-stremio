@@ -1,7 +1,7 @@
 {
-  "name": "m3u-stremio-addon",
-  "version": "0.0.1",
-  "description": "Stremio addon for parsing M3U playlists",
+  "name": "tu-addon",
+  "version": "0.0.1a",
+  "description": "m3u8 addon",
   "main": "addon.js",
   "scripts": {
     "start": "node addon.js"
