@@ -31,7 +31,7 @@ function guardarConfiguracionYArchivoM3U(configuracion, m3uData) {
 }
 
 // Define el manejador para configurar el addon
-builder.defineConfigurator(({ type, key, data }) => {
+builder.defineConfig(({ type, key, data }) => {
     if (type === 'movie' && key === 'config') {
         // Guarda la configuración y el archivo M3U
         guardarConfiguracionYArchivoM3U(data, data.m3uData);
